@@ -1,0 +1,13 @@
+CMD 命令输入
+
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple XX（XX为第三方运行库名称）例如：
+
+jieba
+python-docx
+PyPDF2
+pdfplumber
+pyMuPDF
+fitz
+fuzzywuzzy
+wordcloud
+pyecharts
