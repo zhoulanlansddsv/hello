@@ -1,0 +1,15 @@
+# coding: utf-8
+titanic=pd.read_csv( 'C:\Users\Administrator\Downloads\TitanicSurvival.csv')
+titanic=pd.read_csv( 'C:/Users/Administrator/Downloads/TitanicSurvival.csv')
+pd.set_option('precision',2)
+titanic.head()
+titanic.head()
+pd.set_option('precision',2)
+titanic.colums=['name','survived','sex','age','class']
+titanic.head()
+titanic.describe()
+(titanic.survived=='yes').describe()
+get_ipython().run_line_magic('matlotlib', '')
+get_ipython().run_line_magic('pip', 'install matlotlib')
+get_ipython().run_line_magic('matplotlib', '')
+histogram=titanic.hist()
